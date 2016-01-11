@@ -1,0 +1,12 @@
+> outlier_ids
+
+> for( id in outlier_ids){
++ d <- d[ d$IDs != id, ] }
+
+> d[ d$IDs == "A2759", ]
+
+glm
+family=	gamma
+	inverse gaussian
+	poisson
+	
