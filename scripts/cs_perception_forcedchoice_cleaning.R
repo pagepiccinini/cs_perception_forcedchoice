@@ -3,7 +3,7 @@ library(dplyr)
 
 
 ## READ IN DATA ####
-data = read.table("data/all_num.txt", header=T, sep="\t")
+data = read.table("data/data.txt", header=T, sep="\t")
 
 
 ## CLEAN DATA ####
